@@ -4,7 +4,7 @@
 }
 
 .warning {
-    background-color: #c52525;
+    background-color: #e04242;
     color: #eff2f7;
 }
 
@@ -27,3 +27,7 @@ th, td {
     margin: 5px 10px;
     padding: 8px;
 }
+
+tr:nth-child(even) {
+    background: rgb(228, 219, 191);
+  }
