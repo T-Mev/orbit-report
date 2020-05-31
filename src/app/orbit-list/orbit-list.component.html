@@ -10,7 +10,7 @@
    <!-- TODO: put <tr *ngFor=""></tr> here -->
    <tr [class.warning]="sat.shouldShowWarning()" *ngFor="let sat of satellites">
        <td>{{sat.name}}</td>
-       <td class="altColor">{{sat.type}}</td>
+       <td>{{sat.type}}</td>
        <td>{{sat.operational}}</td>
        <td>{{sat.orbitType}}</td>
        <td>{{sat.launchDate}}</td>
